@@ -28,6 +28,7 @@ const Button = ({
 
     return (
         <ButtonStyle
+        className='button-wrapper'
             outline={outline}
         >
             <Link
