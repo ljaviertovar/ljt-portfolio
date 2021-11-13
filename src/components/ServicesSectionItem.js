@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import PText from './PText';
 
-import { MdCode, MdDesktopMac, MdPhonelinkSetup } from 'react-icons/md';
+import { MdDesktopMac } from 'react-icons/md';
 
 const ItemStyles = styled.div`
 text-align: center;
