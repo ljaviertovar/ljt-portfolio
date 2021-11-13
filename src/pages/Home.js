@@ -6,7 +6,6 @@ import ServicesSection from '../components/ServicesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ContactBanner from '../components/ContactBanner';
-import Footer from '../components/Footer';
 
 const Home = () => {
     return (
