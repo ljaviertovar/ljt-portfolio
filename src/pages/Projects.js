@@ -18,7 +18,7 @@ const ProjectsStyles = styled.div`
 
 const Projects = () => {
 
-    const [projectData, setProjectData] = useState(ProjectInfo)
+    // const [projectData, setProjectData] = useState(ProjectInfo)
 
     return (
         <ProjectsStyles>
@@ -29,7 +29,7 @@ const Projects = () => {
                 />
                 <div className='project__allItems'>
                     {
-                        projectData.map((project) => {
+                        ProjectInfo.map((project) => {
                             return (
                                 <ProjectItem
                                     key={project.id}
